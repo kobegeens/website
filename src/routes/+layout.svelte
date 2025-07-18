@@ -1,17 +1,19 @@
 <script>
-	let { children } = $props();
+    import Footer from "$lib/components/Footer.svelte"
     import "/src/app.css"
 </script>
 
+<svelte:head>
+    <title>Kobe Geens</title>
+</svelte:head>
+
 <nav>
-	<a href="#">home</a>
-	<a href="#">about</a>
+	<a href="/">home</a>
+	<a href="/">about</a>
 </nav>
 
 <main> 
-    {@render children()}
+    <slot />
 </main>
 
-<footer>
-    <p>Copyright (c) 2025 Kobe Geens</p>
-</footer>
+<Footer />
