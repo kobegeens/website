@@ -8,8 +8,7 @@
 </svelte:head>
 
 <nav>
-	<a href="/">home</a>
-	<a href="/">about</a>
+    <p>test</p>
 </nav>
 
 <main> 
