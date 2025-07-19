@@ -6,8 +6,8 @@
     <title>Kobe Geens</title>
 </svelte:head>
 
-<nav>
-    <p>test</p>
+<nav style="background-color: var(--backgroundcolor2); border-radius: 30px; padding: 1em;">
+    <p>Home     Projects     About me</p>
 </nav>
 
 <main> 

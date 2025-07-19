@@ -3,8 +3,19 @@
 
 <hr>
 
-<h2>Projects</h2>
-<p>img+txt</p>
-<p>img+txt</p>
-<p>img+txt</p>
-<p>See more</p>
+<h3>Projects</h3>
+<div style="display: grid">
+    <div>Project1</div>
+    <div>Project2</div>
+    <div>Project3</div>
+    <div>Project1</div>
+    <div>Project2</div>
+    <div>Project3</div>
+</div>
+<p>View more</p>
+
+<hr>
+
+<h3>About Me</h3>
+<p>yap yap yap yap yap yapyap yap yapyap yap yapyap yap yap</p>
+

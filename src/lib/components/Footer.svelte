@@ -1,8 +1,8 @@
 <style>
-    footer{
-        background-color: black;
+    footer {
+        background-color: var(--backgroundcolor2);
         padding:1em;
-        border-radius: 50px;
+        border-radius: 30px;
     }
 </style>
 

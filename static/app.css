@@ -1,7 +1,10 @@
+@import "./variables.css";
+
 body {
-    background-color:#454545;
+    background-color:var(--backgroundcolor);
     color:white;
     font-family: sans-serif;
     margin: auto;
     max-width: 70ch;
+    padding: 0.5em;
 }
