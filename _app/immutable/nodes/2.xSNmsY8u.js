@@ -1,1 +1,0 @@
-import"../chunks/NZTpNUN0.js";import"../chunks/BzpfPhIB.js";import{i as p,j as m,n as o}from"../chunks/Cf2625ML.js";var r=p("<h1>Kobe Geens</h1> <p>Hey! This is my website made using Sveltekit, come back later.</p> <hr/> <h2>Projects</h2> <p>img+txt</p> <p>img+txt</p> <p>img+txt</p> <p>See more</p>",1);function s(e){var t=r();o(14),m(e,t)}export{s as component};
