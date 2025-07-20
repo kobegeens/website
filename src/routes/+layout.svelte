@@ -1,5 +1,6 @@
 <script>
     import Footer from "$lib/components/Footer.svelte";
+    import "$lib/assets/app.css"
 </script>
 
 <svelte:head>
@@ -7,7 +8,7 @@
 </svelte:head>
 
 <nav style="background-color: var(--backgroundcolor2); border-radius: 30px; padding: 1em;">
-    <a>Home</a> <a>Projects</a> <a>About me</a>
+    <a style="margin:auto">Home</a> <a style="margin:auto">Projects</a> <a style="margin:auto">About me</a>
 </nav>
 
 <main> 

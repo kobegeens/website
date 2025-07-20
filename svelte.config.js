@@ -9,7 +9,7 @@ const config = {
 			fallback: null
 		}),
 		paths: {
-			base: '/website'
+			base: 'website'
 		}
 	}
 };
