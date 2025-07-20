@@ -1,7 +1,11 @@
+<script lang="js">
+    import { base } from '$app/paths';
+</script>
+
 <div style="display: flex; flex-direction: column; align-items:center;">
     <h1>Kobe Geens</h1>
     <p>Hey! This is my website made using Sveltekit, come back later.</p>
-    <img src="/website/pfp.png" alt="profile picture" style="width:50%; border-radius:50%;">
+    <img src="{base}/pfp.png" alt="profile picture" style="width:50%; border-radius:50%;">
 </div>
 
 <hr>
