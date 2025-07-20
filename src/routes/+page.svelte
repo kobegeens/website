@@ -1,4 +1,4 @@
-<script lang="js">
+<script lang="ts">
     import pfp from '$lib/images/pfp.png';
 </script>
 
