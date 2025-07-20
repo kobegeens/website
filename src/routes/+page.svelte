@@ -3,10 +3,10 @@
 </script>
 
 <div style="display: flex; flex-direction: column; align-items:center;">
+    <img src="{pfp}" alt="profile picture" style="width:40%; margin:0.5em; border-radius:50%; border-style:solid;">
     <h1>Kobe Geens</h1>
-    <img src="{pfp}" alt="profile picture" style="width:50%; border-radius:50%;">
-    <p>Hey! This is my website made using Sveltekit, come back later.</p>
 </div>
+<p>Hey! This is my website made using Sveltekit, come back later.</p>
 
 <hr>
 

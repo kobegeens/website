@@ -3,6 +3,7 @@
         background-color: var(--backgroundcolor2);
         padding:1em;
         border-radius: 30px;
+        text-align: center;
     }
 </style>
 
