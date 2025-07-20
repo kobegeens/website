@@ -1,11 +1,11 @@
 <script lang="js">
-    import { base } from '$app/paths';
+    import pfp from '$lib/images/pfp.png';
 </script>
 
 <div style="display: flex; flex-direction: column; align-items:center;">
     <h1>Kobe Geens</h1>
     <p>Hey! This is my website made using Sveltekit, come back later.</p>
-    <img src="{base}/pfp.png" alt="profile picture" style="width:50%; border-radius:50%;">
+    <img src="{pfp}" alt="profile picture" style="width:50%; border-radius:50%;">
 </div>
 
 <hr>
