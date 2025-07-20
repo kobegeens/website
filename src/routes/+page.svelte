@@ -10,6 +10,16 @@
 
 <hr>
 
+<div style="text-align: center;">
+    <b>
+        <h3>
+            Hack Club Heist
+            <br><a href="https://glennm008.github.io/website/">&lt;----</a> <a href="https://jackhaesen.github.io/personal-website/">----&gt;</a>
+        </h3>
+    </b>
+</div>
+<hr>
+
 <h3>Projects</h3>
 <div style="display: grid">
     <div>Project1</div>
