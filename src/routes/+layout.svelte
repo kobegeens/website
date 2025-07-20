@@ -7,7 +7,7 @@
 </svelte:head>
 
 <nav style="background-color: var(--backgroundcolor2); border-radius: 30px; padding: 1em;">
-    <p>Home     Projects     About me</p>
+    <a>Home</a> <a>Projects</a> <a>About me</a>
 </nav>
 
 <main> 

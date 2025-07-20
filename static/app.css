@@ -2,9 +2,13 @@
 
 body {
     background-color:var(--backgroundcolor);
-    color:white;
+    color: var(--textcolor);
     font-family: sans-serif;
     margin: auto;
     max-width: 70ch;
     padding: 0.5em;
+}
+
+a:hover, a:visited, a:active {
+    color: var(--accentcolor)
 }
