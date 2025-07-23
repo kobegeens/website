@@ -6,10 +6,10 @@
         text-align: center;
     }
     .navitem {
-        margin:5%;
+        margin:1em;
     }
 </style>
 
 <nav>
-    <a href="." class="navitem">Home</a> <a class="navitem">Projects</a> <a class="navitem">About me</a>
+    <a href="." class="navitem">Home</a> <a class="navitem">Projects</a> <a class="navitem">Photos</a>
 </nav>
