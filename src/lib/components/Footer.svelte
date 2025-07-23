@@ -19,7 +19,7 @@
             <option value="1998">1998</option>
         </select>
         Kobe Geens</p>
-        <a href="https://www.instagram.com/geens.kobe/">Instagram</a> <a href="">GitHub</a>
+        <a href="https://www.instagram.com/geens.kobe/">Instagram</a> <a href="https://github.com/kobegeens">GitHub</a>
 </footer>
 <script lang="ts">
     import { onMount } from 'svelte';
@@ -30,7 +30,7 @@
 
         year.addEventListener("change", function () {
             if (year.value === "1998") {
-                window.location.href = "https://kobegeens.neocities.org";
+                window.location.href = "https://kobegeens.neocities.org/terminal/startup.html";
             }
         });
     });
