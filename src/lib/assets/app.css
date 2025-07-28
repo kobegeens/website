@@ -5,29 +5,15 @@ body {
     color: var(--textcolor);
     font-family: sans-serif;
     margin: auto;
-    max-width: 70ch;
     padding: 0.5em;
+    max-width: 60em;
 }
 
-a, a:hover, a:visited, a:active {
-    color: var(--accentcolor)
+a, a:visited, a:active {
+    color: var(--accentcolor);
+    text-decoration: none;
 }
-
-#gridcontainer {
-    display: grid; 
-    grid-template-columns: auto auto;
-}
-.griditem {
-    background-color: var(--backgroundcolor2);
-    border-radius: 30px;
-    padding: 15px;
-    margin: 0.5em;
-}
-.griditem:hover {
-    opacity: 75%;
-    transform: scale(1.05);
-}
-.griditem img {
-    max-width: 100%;
-    border-radius: 15px;
+a:hover {
+    color: var(--accentcolor);
+    text-decoration: underline;
 }

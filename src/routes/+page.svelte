@@ -1,11 +1,18 @@
 <script lang="ts">
     import pfp from '$lib/assets/pfp.png';
-    import questionmark from '$lib/assets/questionmark.png'
-    import kobesterminal from '$lib/assets/kobesterminal.png'
+    import { onMount } from 'svelte';
+    import Projects from '$lib/components/Projects.svelte';
+
+      let repos = [];
+
+  onMount(async () => {
+    const res = await fetch('https://api.github.com/users/kobegeens/repos');
+    repos = await res.json();
+  });
 </script>
 
 <div style="display: flex; flex-direction: column; align-items:center;">
-    <img src="{pfp}" alt="profile picture" style="width:40%; margin:0.5em; border-radius:50%; border-style:solid;">
+    <img src="{pfp}" alt="profile picture" style="width:10em; margin:0.5em; border-radius:50%; border-style:solid;">
     <h1>Kobe Geens</h1>
     <p>パリに行けないなら、神戸に行け。</p>
 </div>
@@ -22,24 +29,13 @@
 <hr>
 
 <h3>About Me</h3>
-<p>yap yap yap yap yap yapyap yap yapyap yap yapyap yap yap</p>
+<p>Hey, I'm Kobe! I'm a student from 2008 interested in both software and hardware engineering. You might know me from programs I participate in such as Hack Club.</p> 
+<p>If you wish to contact me feel free to do so via <a href="mailto:kobegeens@proton.me">e-mail</a>!</p>
 
 <hr>
 
 <h3>Main Projects</h3>
-
-<div id="gridcontainer">
-    <div class="griditem">
-        <a href="https://kobegeens.neocities.org">
-            <p>Kobe's terminal</p>
-            <img src="{kobesterminal}" alt="project image"/>
-        </a>
-    </div>
-    <div class="griditem">
-        <p>Project1</p>
-        <img src="{questionmark}" alt="project image"/>
-    </div>
-</div>
+<Projects />
 <a>view more</a>
 
 <hr>

@@ -7,7 +7,7 @@
 <Navbar />
 
 <svelte:head>
-    <title>Kobe Geens</title>
+    <title>𝗞𝗼𝗯𝗲 𝗚𝗲𝗲𝗻𝘀</title>
 </svelte:head>
 
 
@@ -15,5 +15,4 @@
 <main> 
     <slot />
 </main>
-
 <Footer />

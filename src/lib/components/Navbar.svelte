@@ -6,10 +6,14 @@
         text-align: center;
     }
     .navitem {
-        margin:1em;
+        margin:5%;
+    }
+    
+    a, a:active, a:visited, a:hover {
+        color: var(--textcolor);
     }
 </style>
 
 <nav>
-    <a href="." class="navitem">Home</a> <a class="navitem">Projects</a> <a class="navitem">Photos</a>
+    <a href="." class="navitem">Home</a> <a href="/photos" class="navitem">Projects</a> <a class="navitem">Photos</a>
 </nav>
