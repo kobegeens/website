@@ -15,5 +15,5 @@
 </style>
 
 <nav>
-    <a href="." class="navitem">Home</a> <a href="/photos" class="navitem">Projects</a> <a class="navitem">Photos</a>
+    <a href="." class="navitem">Home</a> <a href="projects" class="navitem">Projects</a> <a href="photos" class="navitem">Photos</a>
 </nav>

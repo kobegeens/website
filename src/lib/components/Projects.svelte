@@ -7,6 +7,8 @@
 .gridcontainer {
     display: grid; 
     grid-template-columns: repeat(auto-fit,  minmax(20em, 1fr));
+    gap: 1em;
+    margin: 1em;
 }
 
 a, a:active, a:visited, a:hover {
@@ -17,7 +19,6 @@ a, a:active, a:visited, a:hover {
     width: inherit;
     background-color: var(--backgroundcolor2);
     border-radius: 30px;
-    margin: 0.5em;
     display: flex;
     flex-direction: row;
     opacity: 75%;

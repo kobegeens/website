@@ -10,9 +10,11 @@
 }
 
 img {
+    width: 100%;
     display: block;
     aspect-ratio: 1 / 1;
-    margin: 0.5em;
+    gap: 2em;
+    object-fit: contain;
 }
 </style>
 

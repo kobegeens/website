@@ -34,9 +34,18 @@
 
 <hr>
 
+<h3>To Do</h3>
+<ul>
+    <li>lucide icons</li>
+    <li>animations</li>
+    <li>photo viewer</li>
+</ul>
+
+<hr>
+
 <h3>Main Projects</h3>
 <Projects />
-<a>view more</a>
+<a href="projects">view more</a>
 
 <hr>
 
