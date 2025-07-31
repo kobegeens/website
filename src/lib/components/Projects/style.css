@@ -20,14 +20,7 @@
     border-radius: 30px;
     display: flex;
     flex-direction: row;
-    opacity: 60%;
     padding: 0.5em;
-    transition: opacity 300ms, transform 300ms;
-}
-
-.projects .griditem:hover {
-    opacity: 100%;
-    transform: scale(1.05);
 }
 
 .projects img {

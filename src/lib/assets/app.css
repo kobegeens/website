@@ -22,3 +22,12 @@ a:hover {
     text-underline-offset: 0.15em;
 }
 
+.hover {
+    opacity: 60%;
+    padding: 0.5em;
+    transition: opacity 300ms, transform 300ms;
+}
+.hover:hover {
+    opacity: 100%;
+    transform: scale(1.05);
+}

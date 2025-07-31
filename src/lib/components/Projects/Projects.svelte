@@ -7,7 +7,7 @@
 <div class="projects">
     <div class="gridcontainer">
         <a href="https://kobegeens.neocities.org">
-            <div class="griditem">
+            <div class="griditem hover">
                 <img src="{kobesterminal}" alt="project"/>
                 <div>
                     <h2>Kobe's terminal</h2>
@@ -23,9 +23,22 @@
                 </div>
             </div>
         </a>
-        <div class="griditem">
-            <p>Project1</p>
-            <img src="{questionmark}" alt="project"/>
-        </div>
+        <a href="https://kobegeens.neocities.org">
+            <div class="griditem hover">
+                <img src="{kobesterminal}" alt="project"/>
+                <div>
+                    <h2>Kobe's terminal</h2>
+                    <p>
+                        A stylised personal-website.
+                        <br>
+                        <small>
+                            HTML/CSS
+                            <br>
+                            2023
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </a>
     </div>
 </div>
