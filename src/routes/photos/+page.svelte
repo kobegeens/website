@@ -1,6 +1,5 @@
 <script>
-    import questionmark from '$lib/assets/questionmark.png';
-    import kobesterminal from '$lib/assets/kobesterminal.png';
+    import kobesterminal from '$lib/assets/projects/kobesterminal.png';
 </script>
 
 <style>

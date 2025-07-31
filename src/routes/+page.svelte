@@ -1,7 +1,7 @@
 <script lang="ts">
     import pfp from '$lib/assets/pfp.png';
     import { onMount } from 'svelte';
-    import Projects from '$lib/components/Projects.svelte';
+    import Projects from '$lib/components/Projects/Projects.svelte';
 
       let repos = [];
 
@@ -19,20 +19,23 @@
 
 <hr>
 
-<div style="text-align: center;">
-    <b>
-        <h3>
-            <a href="https://glennm008.github.io/website/">&lt;----</a> Hack Club Heist <a href="https://jackhaesen.github.io/personal-website/">----&gt;</a>
-        </h3>
-    </b>
-</div>
-<hr>
-
 <h3>About Me</h3>
 <p>Hey, I'm Kobe! I'm a student from 2008 interested in both software and hardware engineering. You might know me from programs I participate in such as Hack Club.</p> 
 <p>If you wish to contact me feel free to do so via <a href="mailto:kobegeens@proton.me">e-mail</a>!</p>
 
 <hr>
+
+<h3>Main Projects</h3>
+<Projects />
+<a href="projects">view more</a>
+
+<hr>
+
+<h3>Why?</h3>
+<p>This site was created for the Smelt YSWS from Hack Club. It will mostly be used to centralise and parade with my projects.</p>
+
+<hr>
+
 
 <h3>To Do</h3>
 <ul>
@@ -43,9 +46,4 @@
 
 <hr>
 
-<h3>Main Projects</h3>
-<Projects />
-<a href="projects">view more</a>
-
-<hr>
 

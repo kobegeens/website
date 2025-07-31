@@ -2,9 +2,9 @@
     import Footer from "$lib/components/Footer.svelte";
     import Navbar from "$lib/components/Navbar.svelte";
     import "$lib/assets/app.css";
-  import { fly } from 'svelte/transition'
+    import { fly } from 'svelte/transition'
 
-  export let data
+    export let data
 </script>
 
 <Navbar />

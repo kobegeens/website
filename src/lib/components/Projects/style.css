@@ -1,0 +1,40 @@
+/* Projects */
+.projects .gridcontainer {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 1em;
+    margin: 1em;
+}
+
+.projects a,
+.projects a:active,
+.projects a:visited,
+.projects a:hover {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
+.projects .griditem {
+    width: inherit;
+    background-color: var(--backgroundcolor2);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    opacity: 60%;
+    padding: 0.5em;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.projects .griditem:hover {
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+.projects img {
+    display: block;
+    width: 7.5em;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border-radius: 15px;
+    margin: 0.5em;
+}
